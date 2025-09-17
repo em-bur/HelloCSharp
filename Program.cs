@@ -12,7 +12,7 @@ class Program
         Console.WriteLine("What is your favorite hobby?");
         string hobby = Console.ReadLine().ToLower();
 
-        Console.WriteLine($"{hobby} sounds fun!");
+        Console.WriteLine($"{hobby} sounds fun! Wait until you hear this!");
 
         //hobby fun facts
         var funFact = new Dictionary<string, string>()
@@ -22,7 +22,7 @@ class Program
             { "reading", "Did you know that the average American reads 12 books per year?" },
             { "cooking", "Did you know that cooking can help relieve stress?" },
             { "gaming", "Did you know that Minecraft is the most popular game?" },
-            { "exercise", "Did you know that exercise improves sleep quality?" },
+            { "exercise", "Did you know that exercise improves sleep quality? It's time to get moving!" },
         };
 
         if (funFact.ContainsKey(hobby))
@@ -35,4 +35,5 @@ class Program
             Console.WriteLine($"Did you know that your name has {name.Length} letters?");
         }
     }
+
 }
