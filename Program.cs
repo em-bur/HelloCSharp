@@ -7,7 +7,7 @@ class Program
         Console.WriteLine("What is your name?");
         string name = Console.ReadLine();
 
-        Console.WriteLine($"Hi, {name}! Nice to meet you.");
+        Console.WriteLine($"Hi, {name}! Nice to meet you. It's great to be in the same class!");
 
         Console.WriteLine("What is your favorite hobby?");
         string hobby = Console.ReadLine().ToLower();
