@@ -9,10 +9,14 @@ class Program
 
         Console.WriteLine($"Hi, {name}! Nice to meet you. It's great to be in the same class!");
 
+        Console.WriteLine("Hi there! Alayna here from class!");
+
         Console.WriteLine("What is your favorite hobby?");
         string hobby = Console.ReadLine().ToLower();
 
         Console.WriteLine($"{hobby} sounds fun! Wait until you hear this!");
+
+        Console.WriteLine("What a fun hobby!");
 
         //hobby fun facts
         var funFact = new Dictionary<string, string>()
@@ -37,3 +41,4 @@ class Program
     }
 
 }
+
